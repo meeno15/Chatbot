@@ -1,5 +1,5 @@
 # Rule Based Healthcare Chatbot using NLP and Machine Learning
-# HealthBot - Diagnosis and Chatbot Application
+ HealthBot - Diagnosis and Chatbot Application
 
 This repository contains a Python application called HealthBot, which combines a diagnosis system and a chatbot to assist users in identifying potential health issues based on symptoms.
 
