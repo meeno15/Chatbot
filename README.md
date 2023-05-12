@@ -25,8 +25,8 @@ The HealthBot application consists of three main components:
 
 To run the HealthBot application, you need to have the following installed on your system:
 
-- Python (version X.X)
-- Tkinter library (included in Python's standard library)
+- Python 
+- Tkinter library 
 - pandas
 - numpy
 - scikit learn
@@ -47,7 +47,7 @@ Contributions to the HealthBot application are welcome. If you find any issues o
 ## Acknowledgments
 
 - The dataset used in this application was obtained from [shreyasharma04]. We acknowledge the original creators of the dataset for their valuable work.
-- The code in this repository was inspired by [shreyasharma04] (please provide attribution to the original work if applicable). I have built upon their code to enhance the functionality and integrate it into a user-friendly interface.
+- The code in this repository was inspired by [shreyasharma04]. I have built upon their code to enhance the functionality and integrate it into a user-friendly interface.
 
 
 
