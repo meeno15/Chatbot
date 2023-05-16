@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, _tree
 
 # Importing the dataset
-training_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/Training.csv')
-test_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/Testing.csv')
+training_dataset = pd.read_csv('Training.csv')
+test_dataset = pd.read_csv('Testing.csv')
 
 # Slicing and Dicing the dataset to separate features from predictions
 X = training_dataset.iloc[:, 0:132].values
@@ -90,7 +90,7 @@ def tree_to_code(tree, feature_names):
 
 # This section of code to be run after scraping the data
 
-doc_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/doctors_dataset.csv', names = ['Name', 'Description'])
+doc_dataset = pd.read_csv('doctors_dataset.csv', names = ['Name', 'Description'])
 
 
 diseases = dimensionality_reduction.index
