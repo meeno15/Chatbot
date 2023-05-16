@@ -1,9 +1,9 @@
 # Rule Based Healthcare Chatbot using NLP and Machine Learning
- HealthBot - Diagnosis and Chatbot Application
+ ## HealthBot - Diagnosis and Chatbot Application
 
 This repository contains a Python application called HealthBot, which combines a diagnosis system and a chatbot to assist users in identifying potential health issues based on symptoms.
 
-The HealthBot application consists of three main components:
+## The HealthBot application consists of three main components:
 
 1. Decision Tree Classifier for Disease Diagnosis:
    - The file `bot_training.py` contains code that trains a decision tree classifier using a provided dataset (`Training.csv` and `Testing.csv`) to predict diseases based on symptoms.
