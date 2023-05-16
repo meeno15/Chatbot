@@ -43,8 +43,8 @@ class HyperlinkManager:
 
 
 # Importing the dataset
-training_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/Training.csv')
-test_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/Testing.csv')
+training_dataset = pd.read_csv('Training.csv')
+test_dataset = pd.read_csv('Testing.csv')
 
 # Slicing and Dicing the dataset to separate features from predictions
 X = training_dataset.iloc[:, 0:132].values
@@ -182,7 +182,7 @@ def execute_bot():
 
 # This section of code to be run after scraping the data
 
-doc_dataset = pd.read_csv('/Users/alaminmy/Downloads/PP/doctors_dataset.csv', names=['Name', 'Description'])
+doc_dataset = pd.read_csv('doctors_dataset.csv', names=['Name', 'Description'])
 
 diseases = dimensionality_reduction.index
 diseases = pd.DataFrame(diseases)
